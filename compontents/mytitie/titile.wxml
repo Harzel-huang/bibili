@@ -1,0 +1,16 @@
+<!-- compontents/mytitie/titile.wxml -->
+<view class="my_titile">
+	<navigator class="logo">
+		<image class="logo_img" style="width:140rpx;height:60rpx" src="../../icons/logo2.png" />
+	</navigator>
+	<navigator class="search_icon">
+		<image style="width:60rpx;height:44rpx" src="../../icons/search.png" />
+	</navigator>
+	<navigator class="user_icon">
+		<image style="width:54rpx;height:60rpx" class="logo_img" src="../../icons/user.png" />
+	</navigator>
+	<navigator class="down_app">
+		下载APP
+	</navigator>
+</view>
+

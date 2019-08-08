@@ -1,0 +1,52 @@
+.nav{
+    /* 强制不换行 */
+    white-space: nowrap;
+    padding: 5rpx 0;
+}
+.nav_item{
+    padding: 20rpx 45rpx;
+    font-size: 30rpx;
+    display: inline-block
+}
+.nav_item.active{
+    border-bottom: 2rpx solid #de688b;
+}
+.sildes{
+    margin-top: 15rpx;
+    height: 220rpx;
+}
+.slides swiper{
+    height: 100%
+}
+.sildes navigator{
+    width: 100%;
+    height: 100%;
+}
+.sildes image{
+    width: 100%;
+    height: 100%;
+}
+.video_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rpx;
+    justify-content: space-between;
+}
+.video_img{
+    position: relative;
+}
+.video_item{
+    width: 48%;
+    margin-bottom: 20rpx;
+}
+.video_img label{
+    font-size: 12px;
+    margin: 0;
+}
+.video_img image{
+    width: 100%;
+    border-radius: 10rpx;
+    
+}
+
+

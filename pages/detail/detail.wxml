@@ -1,0 +1,33 @@
+<view class="main">
+	<titile/>
+	<view class="video_css">
+		<video
+		 id="myvideo"
+		 src="{{videoSrc}}"
+		 autoplay
+		 controls
+		 loop
+		/>
+	</view>
+	<view class="video_other">
+		<view class="video_titile">{{videoTitile}}</view>
+	</view>
+	<view class="video_message">
+		<view class="video_autor">作者：
+			<label>{{author}}</label>
+		</view>
+		<view class="video_count">播放量：
+			<label>{{videoCount}}</label>
+		</view>
+	</view>
+	<view class="other_conter">
+		<label>以下为其他视频推荐</label>
+		<view class="video_item" wx:for="{{otherVideoSrc}}" wx:key="{{index}}">
+			<view class="image">
+				<image src="{{item.imgSrc}}" mode="widthFix" />
+			</view>
+			<view>标题{{item.title}}</view>
+		</view>
+	</view>
+</view>
+

@@ -1,0 +1,39 @@
+.video_css{
+    width: 100%;
+}
+#myvideo{
+    width: 100%;
+}
+.video_titile{
+    font-size: 30rpx;
+}
+.video_autor {
+    float: left;
+    font-size: 28rpx;
+    padding: 15rpx;
+}
+.video_autor label{
+   color: lightsteelblue
+}
+.video_count{
+    float: left;
+    font-size: 28rpx;
+    padding: 15rpx;
+}
+.video_count label{
+    color: red;
+}
+.image image{
+    width: 100%;
+    border-radius: 15rpx;
+}
+.other_conter{
+    margin-top: 10%;
+    position: relative;
+}
+.other_conter label{
+    position: absolute;
+    left: 0;
+    color: #ccc;
+    font-size: 25rpx;
+}
